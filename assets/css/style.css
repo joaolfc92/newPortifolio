@@ -1,0 +1,88 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 15px 0px 15px 0px;
+  position: fixed;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding: 2px 10px;
+  display: inline-block;
+}
+
+header nav ul li a:hover {
+  color: #339BEB;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+section {
+  border: 1px solid black;
+  width: 100%;
+  height: 800px;
+}
+
+section:nth-child(even) {
+  background-color: #3c4f60;
+}
+
+section, footer {
+  padding-top: 60px;
+}
+
+#banner {
+  background-image: url(../img/fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#caixadetexto {
+  width: 600px;
+  line-height: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#texto1 {
+  text-align: center !important;
+  font-size: 50px;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+}
+
+#texto2 {
+  text-align: center !important;
+  font-size: 30px;
+  color: #339BEB;
+  font-family: "Fjalla One", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
