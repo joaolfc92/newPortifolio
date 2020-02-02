@@ -1,0 +1,56 @@
+.container__footer{
+    display: flex;
+   
+    
+}
+
+.info,.servicos,.conhecimentos{
+    display: flex;
+    flex:1;
+    height: 400px;
+    flex-direction: row;
+    
+    
+    
+}
+
+footer{
+    background-color: black;
+}
+
+.info,.servicos,.conhecimentos{
+    display: flex;
+    flex-direction: column;
+}
+
+.info__tittle{
+    color: white;
+    font-weight: bolder;
+    margin:10px 10px;
+}
+
+.info__footer{
+    margin:10px 10px;
+    color:white;
+    font-size: 15px;
+}
+
+.servicos__list ul{
+    list-style: none;
+}
+
+.servicos ul li{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.servicos ul li::before {content: "->"; color: #339BEB;}
+
+.page-footer{
+    margin-top: -120px;
+}
+
+.footer-copyright{
+    color:white;
+}

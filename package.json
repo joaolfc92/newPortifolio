@@ -8,8 +8,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@popperjs/core": "^2.0.4",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
     "sass": "^1.25.0"
   }
 }

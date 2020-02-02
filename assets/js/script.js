@@ -1,6 +1,6 @@
- 
+ // FUNÇÃO DE DIGITAÇÃO DO BANNER 
 var i = 0;
-var txt = 'Seja Bem-Vindo Desenvolvedor Front-End';
+var txt = 'Seja Bem-Vindo Desenvolvedor Front-End Jr';
 var vel;
 
 
@@ -39,3 +39,37 @@ function rodar(){
     },4000)
    
 }
+// FINAL DA FUNÇÃO 
+
+
+
+// INICIO DA FUNÇÃO DE ANIMAÇÃO DO PORTIFOLIO
+
+const elementos = document.querySelectorAll('[data-anima]');
+
+const animacaoClass = 'animacao';
+
+function animaScroll(){
+    const topoPAginanaJanela = window.pageYOffset+((window.innerHeight*3)/4);
+
+    elementos.forEach(function(elemento){
+        if(topoPAginanaJanela > elemento.offsetTop){
+            elemento.classList.add(animacaoClass)
+        }else{
+            elemento.classList.remove(animacaoClass)
+        }
+    })
+}
+
+if(elementos.length){
+    window.addEventListener('scroll', function(){
+        animaScroll()
+    })
+}
+
+// fim da função 
+
+
+$(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+})

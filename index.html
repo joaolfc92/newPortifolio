@@ -8,27 +8,32 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="assets/js/script.js"></script>
+   
+    
 </head>
 <body onload="rodar()">
 
+
+<!--COMEÇO DO ARQUIVO SCSS TOPO-->    
     <header>
 
         <nav>
             <ul>
-                <li><a href="#banner">Home</a></li>
-                <li><a href="#sobre">Portifólio</a></li>
-                <li><a href="#cursos">Sobre</a></li>
-                <li><a href="#canal">Social</a></li>
+                <li><a href="#banner">{ Home</a></li>
+                <li><a href="#Portifólio">Portifólio</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <li><a href="#">Blog </a></li>
+                <li><a href="cv/Joao Luiz_Flores_Resume.DOCX.zip">Curriculo /}</a></li>
             </ul>
         </nav>
 
 
     </header>
 
-    <section id="banner">
+    <section id="banner" class="header-site">
         <div id="caixadetexto">
             <div id="texto1"></div>
             <div id="texto2"></div>
@@ -36,16 +41,454 @@
        
     </section>
 
-    <section id="sobre"></section>
-
-    <section id="cursos" ></section>
-
-    <section id="canal" ></section>
-
-    <section id="contato" ></section> 
+    <!--TERMINO DO ARQUIVO TOPO-->
 
 
-    <footer></footer>
+    <!--PORTIFOLIO COM PROJETOS-->
+    <section id="Portifólio" >
+
+        <div class="tittle">
+           Portifólio
+        </div>
+
+        <div class="container-fluid flexivel">
+            <div class="row">
+                <a href="#" target="blank" class="col-lg-3 mt-5 mb-5"  data-anima="esquerda">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+                <a href="#" target="blank" class="col-lg-3 mt-5 mb-5"  data-anima="meio">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+
+                <a href="#" target="blank" class="col-lg-3 mt-5 mb-5"  data-anima="meio">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+
+                <a href="#" target="blank" class="col-lg-3 mt-5 mb-5"  data-anima="direita">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+            </div>
+
+            <div class="row">
+                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="esquerda">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="meio">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"   data-anima="direita">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+            </div>
+
+            <div class="row">
+                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="esquerda">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="meio">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="direita">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="Sobre" class="header-site header-site__sobre">
+        <div class="container-fluid">
+            <div class="container container-sobre">
+
+                <div class="tittle" style="color: white;">
+                    SOBRE
+                 </div>
+
+                 <div class="sobre__container">
+                    <div class="sobre__skills">
+                        <div class="skills__photo"></div>
+
+                        <div class="skills__social">
+                            <a href="https://github.com/joaolfc92" target="_blank"><img src="assets/img/github.png" class="img-fluid rounded img-thumbnail"></a>
+                            <a href="https://www.linkedin.com/in/joao-luiz-869214140/" target="_blank"><img src="assets/img/linkdin.png" class="img-fluid rounded img-thumbnail"></a>
+                            <a href="mailto:joao_luiz92@hotmail.com" target="_blank"><img src="assets/img/hotmail-logo-png-3.jpg" class="img-fluid rounded img-thumbnail"></a>
+                            <a href="https://www.instagram.com/joao.l.flores" target="_blank"><img src="assets/img/insta.png" class="img-fluid rounded img-thumbnail"></a>
+                            <a href="https://wa.me/5521990922867?text=Seja%20Bem-vindo" target="_blank"><img src="assets/img/whatsapp.png" class="img-fluid rounded img-thumbnail"></a>
+                        </div>
+
+                        <div class="skills__img">
+                            <div class="tittle tittle__skills">
+                                Minhas habilidades
+                             </div>
+
+                             <div class="img__skills">
+                                 <img src="assets/img/skills/bootstrap.png" data-toggle="tooltip" data-placement="rigth" tittle="Bootstrap">
+                                 <img src="assets/img/skills/css.png">
+                                 <img src="assets/img/skills/file.jpg">
+                                 <img src="assets/img/skills/gimper.png">
+                                 <img src="assets/img/skills/git.png">
+                                 <img src="assets/img/skills/gulp.jpg">
+                                 <img src="assets/img/skills/html5.png">
+                                 <img src="assets/img/skills/jq.png">
+                                 <img src="assets/img/skills/js.png">
+                                 <img src="assets/img/skills/materialize.png">
+                                 <img src="assets/img/skills/mongo.png">
+                                 <img src="assets/img/skills/npmlogo.png">
+                                 <img src="assets/img/skills/Photoshop_Icon_03.png">
+                                 <img src="assets/img/skills/sass.png">
+                                 
+                             </div>
+                        </div>
+                    </div>
+                    <div class="sobre__apresetacao">
+                        <h2 class="tittle mt-5">Eu sou o João, prazer em conhece-lo<br></h2>
+
+                        <p class="format">Meu nome completo é João Luiz Flores, tenho 26 anos, nasci e cresci na cidade do Rio de Janeiro, morando em um bairro chamado Bangu, que não e lenda urbana faz calor de verdade.<br></p>
+
+
+                        <p class="format">Sou apaixonado por informática e tecnologia, sempre estou procurando me atualizar. Possuo aprendizagem rápida e sou praticamente autodidata.</p>
+
+                       
+
+                         <p class="format">Sou altamente motivado, orientado para resultados, auto-dirigido, trabalhador, aprendiz rápido e inteligente, ansioso para fazer parte da equipe, aprender novas tecnologias, tornar-se um funcionário valioso da empresa e trazer sucesso.</p>  
+                    
+                        <p class="format">
+                            Bem organizado, com capacidade de priorizar tarefas e capacidade de trabalhar em equipe, desenvolver e crescer na empresa. Experiente na comunicação com a equipe e clientes.</p>
+                            
+                        <h3 class="tittle tittle_mod mt-5 mb-5">É o que faço hoje ?</h3>    
+
+                        <p class="format">Atualmente desenvolvoldo codigos Front-end utilizando tecnologias sempre atualizadas como, HTML5/5.1, CSS3/4, SASS, ECMAScript 6/7/8, GulpJS e JS, nos tempos livres escrevo no meu <a href="#">Blog</a> e contribuo com alguns códigos no Github.</p>    
+                        
+                 </div>
+         
+                
+
+                
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Social" >
+        <div class="tittle">
+            mais um pouco sobre mim ...
+         </div>
+
+         <div class="container mt-5">
+
+
+            <div class="row">
+                <div class="col-sn-6 col-md-4">
+    
+                    <nav id="navbarvertical" class="navbar navbar-light bg-light">
+                        <nav class="nav nav-pills flex-column">
+    
+                            <a class="nav-link" href="#item1" >Experiência Profissional</a>
+                                <nav class="nav nav-pills flex-column">
+                                        <a class="nav-link ml-3" href="#item1-1" >Empresa - Storm Development</a>
+                                        <a class="nav-link ml-3" href="#item1-2" >Responsabilidade</a>
+                                        <a class="nav-link ml-3" href="#item1-3" >Empresa - Kronn Contabilidade </a>
+                                        <a class="nav-link ml-3" href="#item1-4" >Responsabilidade</a>
+                                        <a class="nav-link ml-3" href="#item1-5" >Empresa - Alerta Fiscal</a>
+                                        <a class="nav-link ml-3" href="#item1-6" >Responsabilidade</a>
+                                        <a class="nav-link ml-3" href="#item1-7" >Empresa - Construtora Calçada</a>
+                                        <a class="nav-link ml-3" href="#item1-8" >Responsabilidade</a>
+                                </nav>
+                            <a class="nav-link my-2" href="#item2">Formação Academica</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ml-3" href="#item2-1" >Faculdade</a>
+                                <a class="nav-link ml-3" href="#item2-2" >Cursos Técnicos</a>
+    
+                            </nav>
+    
+                            <a class="nav-link my-2" href="#item3">Cursos Complementares</a>
+    
+                            
+                        </nav>	
+    
+    
+                    </nav>
+    
+    
+                </div>
+                <div class="col-sn-6 col-md-8">
+    
+                    <div data-spy="scroll" data-target="#navbarvertical" data-offset="0" class="scrollsrySite">
+    
+                        <h4 id="item1">Resumo das Qualificações</h4>
+                        <ul>
+                            <li>Conhecimento na elaboração de relatórios, controle de arquivo e tratamento de documentos variados, cumprindo todo o procedimento necessário.</li>
+                            <li>Aptidão para o desenvolvimento de estudos sobre métodos de controle de custos e bens patrimoniais, com base na análise financeira.</li>
+                        </ul>
+    
+    
+                        <h5 id="item1-1"><b>Storm Development</b></h5>
+                        <ul>
+                            <li>Periodo: Julho/2016 á Outubro/2018</li>
+                            <li>Cargo: Estagiário/Assistente Administrativo 1 / Financeiro </li>
+                            
+                        </ul>
+    
+                        <h5 id="item1-2">Principais Responsabilidades </h5>
+                        <ul>
+                            <li>Relacionamento com instituições financeiras - gerenciamento das contas bancárias, otimização da estrutura bancária na região e  monitoramento do serviço prestado ;</li>
+                            <li>Responsável por todo o processo de conciliação bancaria, emissão de comprovante e arquivamento;</li>
+                            <li>Suporte na área RH/DP/Administrativa/Financeira/ Contabil;</li>
+                            <li>Controle de VR, VA, VT,plano de saúde e odonto junto ao RH;</li>
+                            <li>Responsável por pagamento junto a fornecedores;</li>
+                            <li>Responsável por calculo e emissão de notas cariocas ;</li>
+                            <li>Responsável pela manutenção e alimentação do fluxo de caixa da empresa em nosso sistema interno;</li>
+                            <li>Verificação dos pagamentos (salário/ benefícios)</li>
+                            <li>Elaboração e manutenção de planilhas</li>
+                            <li>Responsável pela digitalização, arquivamento de documentos e manutenção do arquivo.</li>
+                            <li>Responsável por organizar as contas e pagamento do CEO da empresa</li>
+                            <li>Responsável por relacionamento direto com a contabilidade externa – organização e envio de documentos e relatórios mensais.</li>
+                            <li>Elaboração de pautas de reuniões</li>
+                            <li>Responsável pela emissão de diversos tipos de relatórios para diretoria/CEO.</li>
+                            <li>Experiência com faturamento mensal.</li>
+                            <li>Compra de passagens e hospedagem.</li>
+                            <li>Orçamentos, internos e de compra materiais para o escritório.</li>
+                        </ul>
+    
+                        <h5 id="item1-3"><b>Kronn Contabilidade</b></h5>
+                        <ul>
+                            <li>Periodo: Fevereiro/2016 á Julho/2018</li>
+                            <li>Cargo: Estagiário Contabil</li>
+                            
+                        </ul>
+    
+                        <h5 id="item1-4"><b>Principais Responsabilidades</b></h5>
+                        <ul>
+                            <li>Suporte nas rotinas contábeis</li>
+                            <li>Conferência de nota fiscal </li>
+                            <li>Rotinas Administrativas e Contábeis</li>
+                            <li>Lançamentos Contábeis </li>
+                            
+                        </ul>
+    
+                        <h5 id="item1-5"><b>Alerta Fiscal</b></h5>
+                        <ul>
+                            <li>Periodo: Novembro/2015 á Dezembro/2015</li>
+                            <li>Cargo: Revisor Fiscal </li>
+                            
+                        </ul>
+    
+                        <h5 id="item1-6"><b>Principais Responsabilidades</b></h5>
+                        <ul>
+                            <li>Fazer a revisão de produtos, considerando o sistema interno da empresa </li>
+                            <li>Atuação na área de Atendimento ao cliente, com experiência no atendimento presencial, telefônico e via e-mail </li>
+                            <li>Esclarecimento de dúvidas sobre os resultados de revisões e processos feitos </li>
+                            <li>Condução da solução de problemas, diminuindo dúvidas ou encaminhando para o superior.</li>
+                            
+                        </ul>
+    
+                        <h5 id="item1-7"><b>Construtora Calçada</b></h5>
+                        <ul>
+                            <li>Periodo: Novembro/2013 á Junho/2015</li>
+                            <li>Cargo: Aprendiz Contabil </li>
+                            
+                        </ul>
+    
+                        <h5 id="item1-8"><b>Principais Responsabilidades</b></h5>
+                        <ul>
+                            <li>Responsável por Protocolar as solicitações de pagamento do financeiro para o setor fiscal </li>
+                            <li>suporte no atendimento da auditória externa </li>
+                            <li>Auxiliando a analista sênior com a análise contábil e seleção de documentos </li>
+                            <li>Despacho das notas fiscais para a contabilidade externa.</li>
+                            <li>Responsável pelo arquivamento do setor contábil da empresa </li>
+                            <li>Responsável por acessar o site da nota carioca e preparar o habite-se.</li>
+                            
+                        </ul>
+    
+    
+                    
+                    
+                        <h5 id="item2"><b>Formação Academica</b></h5>
+                        <ul id="item2-1">
+                            <li>Faculdade Estacio de Sá</li>
+                            <li>Contabilidade</li>
+                            <li>4º Periodo (Trancado)</li>
+                        </ul>
+    
+                        <ul id="item2-2">
+                            <li>Tecnico em Administração - Senai</li>
+                            <li>Web Designer - Microcamp</li>
+                            <li>Montagem e Manutenção - Microcamp</li>
+                        </ul>
+    
+    
+    
+    
+                        
+    
+                        <h5 id="item3"><b>Cursos Complementares</b></h5>
+                        <ul>
+                            <li>Análise de Balanço</li>
+                            <li>Elaboração de plano de negócio,</li>
+                            <li>Administração de tempo</li>
+                            <li>Inteligência Emocional,</li>
+                            <li>Qualidade de Atendimento ao Cliente, </li>
+                            <li>A arte de falar em publico</li>
+                            <li>Mundo de Trabalho e a Empregabilidade</li>
+                            <li>Processo Seletivo</li>
+    
+                        </ul>
+    
+                        
+                    
+    
+                    </div>
+                </div>
+            </div>        
+
+        </div>
+    </section>
+
+    <section id="contato" class="header-site header-site__padding">
+        <div class="tittle" style="color: white;">
+            CONTATO
+         </div>
+
+        <div class="container mt-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-sm-12 col-md-10 col-lg-8">
+                    <form method="POST" action="resultado.php">
+                        <div class="form-row">
+                            <div class="form-group col-sm-6">
+                                
+                                <input type="text" class="form-control" id="inputNome" name="inputNome"  placeholder="Nome" required maxlength="50"> 
+                            </div>	
+    
+                            <div class="form-group col-sm-6">
+                                
+                                <input type="email" class="form-control" id="inputMail" name="inputMail" placeholder="Email" required>
+                            </div>
+    
+                            
+    
+                            <div class="form-group col-sm-12">
+                                    
+                                    <input type="text" class="form-control" id="inputJob" name="inputJob" placeholder="Empresa">
+                            </div>
+    
+                            
+                            <div class="form-group col-sm-4">
+                                    <label for="inpEst">Selecione o Serviço :</label>
+                                    <select id="inpEst" class="form-control" name="inpEst">
+                                        <option selected></option>
+                                        <option value="APP">Aplicativos Web</option>
+                                        <option value="LV">Loja Virtual</option>
+                                        <option value="MS">Manutenção e atualização de sites</option>
+                                        <option value="SEO">Otimização de sites</option>
+                                        <option value="TM">Layouts e temas</option>
+                                        
+                                      
+        
+                                    </select>
+                            </div>
+
+
+                            <div class="form-group col-sm-4">
+                                <label for="inpEst">Selecione o Orçamento :</label>
+                                <select id="inpEst" class="form-control" name="inpEst">
+                                    <option selected></option>
+                                    <option value="opc1">< R$1000,00</option>
+                                    <option value="opc2">R$ 1000,00 - R$ 3000,00</option>
+                                    <option value="opc3">R$ 3000-00 - R$ 5000,00</option>
+                                    <option value="opc4">> R$ 5000,00</option>
+                                </select>
+                        </div>
+
+
+
+
+
+
+                            <div class="w-100"></div>
+    
+                            <div class="form-group col-sm-6">
+                                    
+                                    <input type="text" class="form-control" id="inputCel" placeholder="Celular" name="inputCel">
+                            </div>
+    
+                            <div class="form-group col-sm-6">
+                                    
+                                    <input type="text" class="form-control" id="inputTel" name="inputTel" placeholder="Telefone">
+                            </div>
+
+                            <div class="form-group col-sm-12">
+                                    
+                                    <textarea id="msg" placeholder="Mensagem" name="msg" required maxlength="500"></textarea>
+                                </div>
+    
+                          
+    
+                            <div class="w-100 mt-3">
+                                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#btn-modal" >Enviar</button>
+                            </div>
+                            
+    
+    
+                        </div>
+                    </form>
+
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </section> 
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="container container__footer" >
+                <div class="info">
+                    <h5 class="info__tittle">Desenvolvedor Front-End Jr</h5>
+                    <div class="info__footer"><img src="assets/img/whatsapp.png" height="20" width="20">&nbsp&nbsp&nbsp 21 990926728</div>
+                    <div class="info__footer"><img src="assets/img/hotmail-logo-png-3.jpg" height="20" width="20">&nbsp&nbsp&nbsp joao_luiz92@hotmail.com</div>
+                    <div class="info__footer"><img src="assets/img/github.png" height="20" width="20">&nbsp&nbsp&nbsp joaolfc92</div>
+                    <div class="info__footer">Programador web freelancer,criação de sites, landing pages, e-commerce e sistemas, front e back-end, HTML, CSS, Javascript</div>
+                </div>
+                <div class="servicos">
+                    <h5 class="info__tittle">Serviços de Desenvolvimento</h5>
+                    <div class="servicos__list">
+                        <ul>
+                            <li>Aplicativos Web</li>
+                            <li>Loja Virtual</li>
+                            <li>Manutenção e atualização de sites</li>
+                            <li>Otimização de sites</li>
+                            <li>Layouts e temas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="conhecimentos">
+                    <h5 class="info__tittle">Últimos Posts</h5>
+                    <img src="assets/img/unnamed.png" height="200" class="mt-5">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+            <footer class="page-footer font-small white">
+
+            <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="#"> João Luiz Flores</a>
+                </div>
+                <!-- Copyright -->
+            
+            </footer>
+  <!-- Footer -->
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
