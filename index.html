@@ -5,33 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Full page</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/popper.js/dist/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
    
     
 </head>
 <body onload="rodar()">
 
 
-<!--COMEÇO DO ARQUIVO SCSS TOPO-->    
+<!--COMEÇO DO ARQUIVO SCSS TOPO-->  
+
+
+
     <header>
 
         <nav>
-            <ul>
-                <li><a href="#banner">{ Home</a></li>
+            <img src="assets/img/menu.png" class="menu_mobile" onclick="toggleMenu()">
+            <ul id="menu">
+                <li><a href="#banner"> Home</a></li>
                 <li><a href="#Portifólio">Portifólio</a></li>
                 <li><a href="#Sobre">Sobre</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="#">Blog </a></li>
-                <li><a href="cv/Joao Luiz_Flores_Resume.DOCX.zip">Curriculo /}</a></li>
+                <li><a href="cv/Joao Luiz_Flores_Resume.DOCX.zip">Curriculo </a></li>
             </ul>
         </nav>
 
 
     </header>
+
 
     <section id="banner" class="header-site">
         <div id="caixadetexto">
@@ -52,43 +56,49 @@
         </div>
 
         <div class="container-fluid flexivel">
-            <div class="row">
-                <a href="#" target="blank" class="col-lg-3 mt-5 mb-5"  data-anima="esquerda">
+            <div class="row row__portifolio">
+                <a href="#" target="blank" class="col-xl-3 col-lg-6   mt-5 mb-5"  data-anima="esquerda">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
-                <a href="#" target="blank" class="col-lg-3 mt-5 mb-5"  data-anima="meio">
-                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
-                </a>
-
-                <a href="#" target="blank" class="col-lg-3 mt-5 mb-5"  data-anima="meio">
+                <a href="#" target="blank" class=" col-xl-3 col-lg-6   md-2 mt-5 mb-5"  data-anima="esquerda">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
 
-                <a href="#" target="blank" class="col-lg-3 mt-5 mb-5"  data-anima="direita">
+                <a href="#" target="blank" class="col-xl-3 col-lg-6    md-2 mt-5 mb-5"  data-anima="direita">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+
+                <a href="#" target="blank" class=" col-xl-3 col-lg-6   md-2 mt-5 mb-5"  data-anima="direita">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
             </div>
 
             <div class="row">
-                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="esquerda">
+                <a href="#" target="blank" class="col-xl-3 col-lg-6  mt-5 mb-5"  data-anima="esquerda">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
-                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="meio">
+                <a href="#" target="blank" class="col-xl-3 col-lg-6  mt-5 mb-5"  data-anima="esquerda">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
-                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"   data-anima="direita">
+                <a href="#" target="blank" class="col-xl-3 col-lg-6  mt-5 mb-5"   data-anima="direita">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+                <a href="#" target="blank" class="col-xl-3 col-lg-6  mt-5 mb-5"   data-anima="direita">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
             </div>
 
             <div class="row">
-                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="esquerda">
+                <a href="#" target="blank" class="col-xl-3 col-lg-6  mt-5 mb-5"  data-anima="esquerda">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
-                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="meio">
+                <a href="#" target="blank" class="col-xl-3 col-lg-6  mt-5 mb-5"  data-anima="esquerda">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
-                <a href="#" target="blank" class="col-lg-4 mt-5 mb-5"  data-anima="direita">
+                <a href="#" target="blank" class="col-xl-3 col-lg-6  mt-5 mb-5"  data-anima="direita">
+                    <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
+                </a>
+                <a href="#" target="blank" class="col-xl-3 col-lg-6  mt-5 mb-5"   data-anima="direita">
                     <img src="assets/img/financer.png" class="img-fluid rounded img-thumbnail">
                 </a>
             </div>
@@ -173,7 +183,7 @@
     </section>
 
     <section id="Social" >
-        <div class="tittle">
+        <div class="tittle tittle__sobre">
             mais um pouco sobre mim ...
          </div>
 

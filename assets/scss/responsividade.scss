@@ -1,0 +1,296 @@
+@media only screen and (min-width:1024px) and (max-width:1200px){
+    .skills__social img,.img__skills img {
+        height: 40px;
+        width: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width:900px) and (max-width:990px){
+    .row{
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (min-width:900px) and (max-width:1024px){
+    .container-sobre {
+        height: auto;
+    }
+
+    .sobre__container {
+        flex-direction: column;
+    }
+
+
+    .skills__social img,.img__skills img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .sobre__apresetacao {
+        
+        margin-top: -100px;
+    }
+
+    label{
+        width: 100px;
+    }
+
+    .info__footer,.servicos ul li {
+        
+        font-size: 13px;
+    }
+
+    #Social{
+        margin-bottom: 60px;
+    }
+
+    .scrollsrySite {
+        
+        height: 750px;
+        
+    }
+
+
+
+   
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:899px){
+    .container-sobre {
+        height: auto;
+    }
+
+    .sobre__container {
+        flex-direction: column;
+    }
+
+    .skills__social img,.img__skills img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .sobre__apresetacao {
+        
+        margin-top: -100px;
+    }
+
+    #Social{
+        margin-bottom: 60px;
+    }
+
+    .scrollsrySite {
+        
+        height: 750px;
+        
+    }
+
+    .info__footer,.servicos ul li {
+        
+        font-size: 13px;
+    }
+
+}    
+
+
+@media only screen and (min-width:426px) and (max-width:768px){
+    header nav ul{
+        list-style: none;
+        text-align: left;
+        display: none;
+       
+    }
+
+    header nav ul li {
+        display: flex;
+        height: 40px;
+        border: 1px solid #339BEB;
+        width: 20%;
+        align-items: center;
+    }
+
+    .menu_mobile{
+        display: block;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+    
+    }
+
+    header nav img{
+        cursor: pointer;
+        
+    }
+
+
+    .container__footer {
+        flex-direction: column;
+    }
+
+    .info, .servicos, .conhecimentos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid white;
+    }
+
+    .page-footer {
+        margin-top: -80px;
+    }
+
+    .tittle__sobre{
+        font-size: 20px;
+    }
+
+    .scrollsrySite {
+        
+        margin-top: 50px;
+        
+    }
+
+    .header-site__sobre {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .sobre__container {
+        flex-direction: column;
+    }
+
+
+    .container-sobre {
+        
+        height: auto;
+        
+    }
+
+    #texto1{
+        font-size: 40px;
+    }
+
+    #texto2{
+        font-size: 25px;
+    }
+    
+}
+
+@media only screen and (min-width:600px) and (max-width:700px){
+    header nav ul li {
+       
+        width: 30%;
+        
+    }
+
+}    
+
+@media only screen and (min-width:300px) and (max-width:600px){
+    header nav ul li {
+       
+        width:35%;
+        
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:425px){
+    header nav ul{
+        list-style: none;
+        text-align: left;
+        display: none;
+       
+    }
+
+    header nav ul li {
+        display: flex;
+        height: 40px;
+        border: 1px solid #339BEB;
+        align-items: center;
+    }
+
+    .menu_mobile{
+        display: block;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+    
+    }
+
+    header nav img{
+        cursor: pointer;
+        
+    }
+
+    .container__footer {
+        flex-direction: column;
+    }
+
+    .info, .servicos, .conhecimentos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid white;
+    }
+
+    .page-footer {
+        margin-top: -80px;
+    }
+
+    .tittle__sobre{
+        font-size: 20px;
+    }
+
+    .scrollsrySite {
+        
+        margin-top: 50px;
+        
+    }
+
+    .header-site__sobre {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .sobre__container {
+        flex-direction: column;
+    }
+
+
+    .container-sobre {
+        
+        height: auto;
+        
+    }
+
+    #texto1{
+        font-size: 40px;
+    }
+
+    #texto2{
+        font-size: 25px;
+    }
+
+    .skills__social img,.img__skills img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .img__skills img {
+        
+        margin-left: 10px;
+    }
+
+    .sobre__apresetacao {
+        margin-top: -100px;
+    }
+
+    
+}
+

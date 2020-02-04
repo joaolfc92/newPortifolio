@@ -22,14 +22,20 @@ html{
     padding-bottom: 300px; 
 }
 
+
 header{
     padding: 15px 0px 15px 0px;
     position: fixed;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
+    box-sizing: border-box;
     
 
+}
+
+header nav img{
+    display: none;
 }
 
 header nav ul{
@@ -60,7 +66,7 @@ header nav ul li a:hover{
 }
 
 section{
-    border: 1px solid black;
+    
     width: 100%;
     height: auto;
 
@@ -94,6 +100,7 @@ section,footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: none;
 }
 
 #texto1{
@@ -101,6 +108,7 @@ section,footer{
     font-size: 50px;
     color: white;
     font-family: 'Fjalla One', sans-serif;
+    
 }
 
 #texto2{
@@ -108,8 +116,16 @@ section,footer{
     font-size: 30px;
     color: #339BEB;
     font-family: 'Fjalla One', sans-serif;
+    
 }
 
 .header-site__padding{
     padding-bottom:0px;
 }
+
+.open{
+    transform: translateX(-150px);
+    transition: transform 2000ms linear;
+}
+
+
