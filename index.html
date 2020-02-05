@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.mask.min.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
    
     
@@ -22,8 +23,8 @@
     <header>
 
         <nav>
-            <img src="assets/img/menu.png" class="menu_mobile" onclick="toggleMenu()">
-            <ul id="menu">
+        
+            <ul class="">
                 <li><a href="#banner"> Home</a></li>
                 <li><a href="#Portifólio">Portifólio</a></li>
                 <li><a href="#Sobre">Sobre</a></li>
@@ -35,6 +36,29 @@
 
 
     </header>
+
+
+
+
+    <header class="header_mobile">
+
+        <nav>
+            <img src="assets/img/menu.png" class="menu_mobile">
+            <ul id="menu" class="">
+                <li><a href="#banner"> Home</a></li>
+                <li><a href="#Portifólio">Portifólio</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#">Blog </a></li>
+                <li><a href="cv/Joao Luiz_Flores_Resume.DOCX.zip">Curriculo </a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+
+
 
 
     <section id="banner" class="header-site">
@@ -387,7 +411,7 @@
                             
                             <div class="form-group col-sm-4">
                                     <label for="inpEst">Selecione o Serviço :</label>
-                                    <select id="inpEst" class="form-control" name="inpEst">
+                                    <select id="inpEst" class="form-control" name="inpSer">
                                         <option selected></option>
                                         <option value="APP">Aplicativos Web</option>
                                         <option value="LV">Loja Virtual</option>
@@ -403,7 +427,7 @@
 
                             <div class="form-group col-sm-4">
                                 <label for="inpEst">Selecione o Orçamento :</label>
-                                <select id="inpEst" class="form-control" name="inpEst">
+                                <select id="inpEst" class="form-control" name="inpOrc">
                                     <option selected></option>
                                     <option value="opc1">< R$1000,00</option>
                                     <option value="opc2">R$ 1000,00 - R$ 3000,00</option>

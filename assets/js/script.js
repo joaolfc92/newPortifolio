@@ -74,22 +74,51 @@ $(function(){
     $('[data-toggle="tooltip"]').tooltip();
 })
 
-
+// FUNÇÃO EFEITO MENU
 
 function toggleMenu(){
     let menu = document.getElementById('menu');
-
+  
+    
     if(menu.style.display == 'none' || menu.style.display == ''){
+    
+
+        menu.style.display = 'block'
+
+        setTimeout(()=>{
+            menu.classList.remove('menu_close')
+            menu.classList.add('menu_open')
+        },500)
+       
         
-        menu.style.display = "block";
-        
+       
 
         
         
     }else{
-        menu.style.display = "none";
-        
+        menu.classList.remove('menu_open')
+        menu.classList.add('menu_close')
+        setTimeout(()=>{
+            menu.style.display = 'none';
+        },500)
+      
         
     }
 }
 
+
+
+$(document).ready(function($){
+    $('#inputCel').mask('(00)00000-0000')
+    $('#inputTel').mask('(00)0000-0000')
+ })
+
+
+
+
+
+
+
+
+window.addEventListener('click', toggleMenu);
+window.addEventListener('load',rodar)

@@ -1,3 +1,5 @@
+
+
 @media only screen and (min-width:1024px) and (max-width:1200px){
     .skills__social img,.img__skills img {
         height: 40px;
@@ -98,17 +100,30 @@
 
 
 @media only screen and (min-width:426px) and (max-width:768px){
-    header nav ul{
+    header{
+        display: none;
+        
+    }
+
+    .header_mobile{
+        display:block;
+        position: absolute;
+    }
+
+
+
+     header nav ul{
         list-style: none;
         text-align: left;
         display: none;
+        
        
     }
 
     header nav ul li {
         display: flex;
         height: 40px;
-        border: 1px solid #339BEB;
+        border-bottom: 1px solid #339BEB;
         width: 20%;
         align-items: center;
     }
@@ -126,6 +141,8 @@
         cursor: pointer;
         
     }
+
+  
 
 
     .container__footer {
@@ -199,6 +216,12 @@
 }
 
 @media only screen and (min-width:320px) and (max-width:425px){
+    .header_mobile{
+        display:block;
+        position: absolute;
+    }
+    
+    
     header nav ul{
         list-style: none;
         text-align: left;
@@ -209,7 +232,7 @@
     header nav ul li {
         display: flex;
         height: 40px;
-        border: 1px solid #339BEB;
+        border-bottom: 1px solid #339BEB;
         align-items: center;
     }
 

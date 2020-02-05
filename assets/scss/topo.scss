@@ -75,9 +75,7 @@ section{
 
 
 
-section:nth-child(even){
-    background-color: #3c4f60;;
-}
+
 
 section,footer{
     padding-top: 60px;
@@ -123,9 +121,24 @@ section,footer{
     padding-bottom:0px;
 }
 
-.open{
-    transform: translateX(-150px);
-    transition: transform 2000ms linear;
+.menu_open{
+    transform: translateX(0px);
+    transition: transform 200ms linear;
+    
 }
+
+.menu_close{
+    transform: translateX(-200px);
+    transition: transform 200ms linear;
+}
+
+
+
+.header_mobile{
+    display: none;
+}
+
+
+
 
 
