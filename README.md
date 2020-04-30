@@ -5,7 +5,7 @@ portifólio feito com html, css(scss) , efeitos em js puro, jquery, bootstrap, g
 
 pagina de resposta ao form feita em php, 
 
-animações em js puro
+animações em js puro.
 
 
 
